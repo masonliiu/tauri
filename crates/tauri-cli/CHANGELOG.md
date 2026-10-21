@@ -1,5 +1,11 @@
 # Changelog
 
+## [2.12.5]
+
+### Bug Fixes
+
+- [`9a010f444`](https://www.github.com/tauri-apps/tauri/commit/9a010f4444f876abd787b817d6973e5756834721) ([#15773](https://www.github.com/tauri-apps/tauri/pull/15773) by [@yingyanzhitong](https://www.github.com/tauri-apps/tauri/../../yingyanzhitong)) Read manual iOS signing certificates and provisioning profiles from the Xcode project when generating export options, without overriding the values configured in `ExportOptions.plist`. Provisioning profiles from `ExportOptions.plist` (such as the ones for app extensions) are now kept when merging.
+
 ## [2.12.4]
 
 ### Bug Fixes
