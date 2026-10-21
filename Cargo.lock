@@ -9455,7 +9455,7 @@ dependencies = [
 
 [[package]]
 name = "tauri-bundler"
-version = "3.0.0-alpha.4"
+version = "3.0.0-alpha.5"
 dependencies = [
  "anyhow",
  "ar",
@@ -9505,7 +9505,7 @@ dependencies = [
 
 [[package]]
 name = "tauri-cli"
-version = "3.0.0-alpha.5"
+version = "3.0.0-alpha.6"
 dependencies = [
  "ar",
  "axum",
@@ -9805,7 +9805,7 @@ dependencies = [
 
 [[package]]
 name = "tauri-runtime-cef"
-version = "3.0.0-alpha.6"
+version = "3.0.0-alpha.7"
 dependencies = [
  "base64 0.22.1",
  "cef",
